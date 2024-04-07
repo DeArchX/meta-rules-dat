@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Delete workflow runs
-        uses: GitRML/delete-workflow-runs@main
+        uses: Mattraks/delete-workflow-runs@v2.0.6
         with:
           token: ${{ secrets.AUTH_PAT }}
           repository: ${{ github.repository }}
